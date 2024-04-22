@@ -2,6 +2,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+/*TITULO*/
 h1{
     color: rgb(204, 0, 255);
     font-family: poppins;
@@ -9,17 +10,7 @@ h1{
     text-decoration: underline;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    width: 2159px;
-}
-.logo_op{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
+/*NAV*/
 nav{
     
     display: flex;
@@ -29,11 +20,11 @@ nav{
 .op{
     background-color: blue;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 10px;
     height: 30px;
-    width: 1343px;
+    width: 1345px;
     
 }
 
@@ -45,8 +36,6 @@ nav{
     padding: auto;
 
 }
-
-
 
 .op_txt{
     color: white;
@@ -71,10 +60,23 @@ nav{
     
 }
 
+.op_txt:not(:hover){
+    font-size: 20px; 
+    text-shadow: white 0px 0px;
+    transition: 0.50s;
+}
+
+
+/*SECCIONES*/
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
 .sec1{
     display: flex;
     justify-content: center;
-    width: ;
+    
 }
 .ropa{
     
@@ -92,8 +94,6 @@ img{
     
     display: inline-block;
 }
-
-
 
 #img_ropa{
     display: flex;
